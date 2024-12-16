@@ -94,29 +94,6 @@ function chooseColor(depth)
 
 
 
-// // Function to create the legend
-// function createLegend(legendId, data) {
-//       const legend = document.getElementById(legendId);
-//       data.forEach(item => {
-//             const legendItem = document.createElement('div');
-//             legendItem.className = 'legend-item';
-
-//             const colorBox = document.createElement('div');
-//             colorBox.className = 'color-box';
-//             colorBox.style.backgroundColor = item.color;
-
-//             const label = document.createElement('span');
-//             label.textContent = item.label;
-
-//             legendItem.appendChild(colorBox);
-//             legendItem.appendChild(label);
-//             legend.appendChild(legendItem);
-//       });
-//     }
-
-   
-
-
 function createMarkers(response) {
 
     // Pull the earthquake "features" property from response
